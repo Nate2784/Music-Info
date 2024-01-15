@@ -1,0 +1,37 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, p{
+    text-align: center;
+    color: whitesmoke;
+}
+title{
+    align-items: center;
+}
+.col{
+    padding-top: 20px;
+}
+.row{
+    background-color: rgba(131, 167, 235, 0.678);
+    padding: 20px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+#lyrics{
+    min-height: 30vh;
+}
+thead th{
+    text-align: center;
+}
+tbody img{
+    width: 250px;
+    height: 150px;
+}
+
+tbody td{
+    width: 250px;
+    padding: 20px;
+    text-wrap: wrap;
+}
